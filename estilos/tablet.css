@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ab5f2d17;
+}
+
+nav,header, footer, main{
+    width: 808px;
+}
+
+header{
+    margin-bottom: 20px;
+}
+
+ul{
+    top: 0%;
+    width: 793px;
+    transform: translateY(31.5px);
+}
+
+main > div{
+    background-image: linear-gradient(to right, #3C2210,burlywood);
+    margin-bottom: 20px;
+}
+
+
+#sobreNos{
+    margin-top: 20px;
+}
+
+#sobreNos > h1{
+    color: #440606;
+}
+
+#titulo_visao{
+    margin-top: 20px;
+}
+
+#titulo_menu, #titulo_visao > h1{
+    color: #AB5F2D;
+}
+
+#visao{
+    border-left: 1px solid #3C2210;
+}
+
+#missao{
+    border-right: 1px solid #3C2210;
+}
